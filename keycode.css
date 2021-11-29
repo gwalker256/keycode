@@ -1,9 +1,7 @@
 body{    
     font-family: 'Teko', sans-serif;
     font-weight: 100;
-    background-color: black;
-
-    
+    background-color: black;  
 }
 
 h2{
@@ -12,22 +10,10 @@ h2{
     color: aqua;
 }
 
-.containerBox{
-/* border:red solid; */
-text-align: center;
-
-
-
-}
-
 #container{
 display:flex;
 justify-content: space-around;
-
-
-
-
-
+text-align: center;
 }
 
 .answerBox{
@@ -36,11 +22,8 @@ background-color: aqua;
 height: 15vw;
 width: 15vw;
 margin:auto;
-/* margin-top:50%; */
-/* vertical-align: middle; */
-/* border:green solid; */
 line-height: 15vw;
-font-size: 4vw;
+font-size: 2vw;
 }
 
 @media screen and (max-width: 600px) {
